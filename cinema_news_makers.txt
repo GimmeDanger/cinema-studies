@@ -1,5 +1,5 @@
 The Hollywood Reporter
-Variety
+Variety -- urls are parsed
 Entertainment Weekly
 Film Comment
 BoxOffice ( https://www.boxofficepro.com )

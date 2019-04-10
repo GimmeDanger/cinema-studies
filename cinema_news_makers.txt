@@ -1,5 +1,6 @@
-The Hollywood Reporter
-Variety -- urls are parsed
-Entertainment Weekly
-Film Comment
+Variety ( https://variety.com ) -- urls are parsed
+Deadline ( https://deadline.com )
+The Hollywood Reporter ( https://www.hollywoodreporter.com/ )
+Entertainment Weekly ( https://ew.com/ )
+Film Comment ( https://www.filmcomment.com/ )
 BoxOffice ( https://www.boxofficepro.com )

@@ -4,16 +4,18 @@ import csv
 #for html parsing
 from bs4 import BeautifulSoup 
 import re
-
-#site pages formats 
-from utils import parse_formats
       
 # Finds all urls on <html_page>
 # and saves them into <urls_set>, url must satisfy <url_regexp> pattern
 def gather_page_urls(html_page, url_regexp, urls_set):
+    re_obj = re.compile(url_regexp)
     soup = BeautifulSoup(html_page, "lxml")
-    for link in soup.findAll('a', attrs={'href': re.compile(url_regexp)}):
-        urls_set.add(link.get('href'))
+    for link in soup.findAll('a', attrs={'href': re_obj}):
+        try:
+            res = re.match(re_obj, link.get('href'))[0]            
+            urls_set.add(res)
+        except:
+            pass
         
 # Go through site pages [<min_page_num>, <max_page_num>] in all sections from <categories>
 # and look for url <needle_URL_regexp(cat_name)> in <hay_page_URL(cat_name, page_num)>

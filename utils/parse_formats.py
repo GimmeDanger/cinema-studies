@@ -1,5 +1,6 @@
 class VarietyParseFormat:
-    host_name = "https://variety.com"
+	name = "variety"
+    host_name = f"https://{self.name}.com"
     categories = ["news", "reviews", "columns"]
     min_page_num = 1
     max_page_num = 100000 #inf    
@@ -9,13 +10,14 @@ class VarietyParseFormat:
         return f"^{self.host_name}/\d*/film/{cat_name}"
 
 class DeadlineParseFormat:
-    host_name = "https://deadline.com"
-    categories = []
+	name = "deadline"
+    host_name = f"https://{self.name}.com"
+    categories = ["film"]
     min_page_num = 1
     max_page_num = 100000 #inf
-    def hay_page_URL(self, page_num):
-        return f"{self.host_name}/v/film/page/{page_num}"
-    def needle_URL_regexp(self):
+    def hay_page_URL(self, cat_name, page_num):
+        return f"{self.host_name}/v/{cat_name}/page/{page_num}"
+    def needle_URL_regexp(self, cat_name=''):
         return f"^{self.host_name}/\d*/\d*/[-\w]*"
 
 #TODO:

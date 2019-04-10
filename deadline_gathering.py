@@ -1,7 +1,7 @@
 from utils import parse_formats
 from utils import parse_tools
 
-site_format = parse_formats.VarietyParseFormat()
+site_format = parse_formats.DeadlineParseFormat()
 print(f"\nScript for '{site_format.host_name}' parsing.\n")
 
 #read category name to parse
@@ -19,7 +19,7 @@ for min_page in range(site_format.min_page_num, site_format.max_page_num, delta_
                                        categories=[cat_name], needle_URL_regexp=site_format.needle_URL_regexp,
                                        hay_page_URL=site_format.hay_page_URL)
 
-  uid = parse_tools.dump_parsed_data_as_csv(output_filename=f"{site_format.name}_{cat_name}_urls_records.csv",
+  uid = parse_tools.dump_parsed_data_as_csv(output_filename=f"deadline_film_urls_records.csv",
                                             categories=[cat_name], urls_by_categories=urls, uid_begin=uid)
 
 print("Parsing finished!")

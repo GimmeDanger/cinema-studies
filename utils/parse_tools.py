@@ -25,9 +25,9 @@ def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp,
     for cat_name in categories:
         urls = set()
         needle_pattern = needle_URL_regexp(cat_name)
-        print("Category", cat_name, "parsing beginned!")
+        #print("Category", cat_name, "parsing beginned!")
         for page_num in range(min_page_num, max_page_num):
-            if page_num % 1 == 0:
+            if page_num % 50 == 0:
               print("Current page: ", page_num)
             hay_url = hay_page_URL(cat_name, page_num)            
             response = requests.get(hay_url)
@@ -35,13 +35,14 @@ def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp,
               gather_page_urls(response.text, needle_pattern, urls)
             else:
               break
-        print("Category", cat_name, "parsing finished!\n")
+        #print("Category", cat_name, "parsing finished!\n")
         urls_by_categories[cat_name] = urls
     return urls_by_categories
   
 def dump_parsed_data_as_csv (output_filename, categories, urls_by_categories, uid_begin):
   f = csv.writer(open(output_filename, "a"))
-  f.writerow(["uid", "category", "url"])
+  if uid_begin == 0:
+     f.writerow(["uid", "category", "url"])
   uid = uid_begin
   for cat_name in categories:
     for url in urls_by_categories[cat_name]:

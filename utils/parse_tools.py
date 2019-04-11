@@ -20,7 +20,10 @@ def gather_page_urls(html_page, url_regexp, urls_set):
 # Go through site pages [<min_page_num>, <max_page_num>] in all sections from <categories>
 # and look for url <needle_URL_regexp(cat_name)> in <hay_page_URL(cat_name, page_num)>
 # Returs set <urls_by_categories>
-def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp, hay_page_URL):
+def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp, hay_page_URL):    
+    fake_headers = {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) '
+      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
     urls_by_categories = {}
     for cat_name in categories:
         urls = set()
@@ -30,7 +33,7 @@ def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp,
             if page_num % 25 == 0:
               print("Current page: ", page_num)
             hay_url = hay_page_URL(cat_name, page_num)            
-            response = requests.get(hay_url)
+            response = requests.get(hay_url, headers=fake_headers)
             if response.status_code != 400:
               gather_page_urls(response.text, needle_pattern, urls)
             else:

@@ -20,8 +20,18 @@ class DeadlineParseFormat:
     def needle_URL_regexp(self, cat_name=''):
         return f"^{self.host_name}/\d*/\d*/[-\w]*"
 
+class FilmcommentParseFormat:
+    name = "filmcomment"
+    host_name = f"https://www.{name}.com"
+    categories = ["blog"]
+    min_page_num = 1
+    max_page_num = 100000 #inf
+    def hay_page_URL(self, cat_name, page_num):
+        return f"{self.host_name}/{cat_name}/page/{page_num}/"
+    def needle_URL_regexp(self, cat_name):
+        return f"^{self.host_name}/{cat_name}/[-\w]+/"
+
 #TODO:
 #The Hollywood Reporter ( https://www.hollywoodreporter.com/ )
 #Entertainment Weekly ( https://ew.com/ )
-#Film Comment ( https://www.filmcomment.com/ )
 #BoxOffice ( https://www.boxofficepro.com )

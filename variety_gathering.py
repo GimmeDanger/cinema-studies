@@ -15,7 +15,7 @@ delta_page = 25
 
 for min_page in range(site_format.min_page_num, site_format.max_page_num, delta_page):
   
-  urls = parse_tools.gather_site_pages(min_page_num=min_page, max_page_num=min_page+1,
+  urls = parse_tools.gather_site_pages(min_page_num=min_page, max_page_num=min(min_page+delta_page, site_format.max_page_num),
                                        categories=[cat_name], needle_URL_regexp=site_format.needle_URL_regexp,
                                        hay_page_URL=site_format.hay_page_URL)
 

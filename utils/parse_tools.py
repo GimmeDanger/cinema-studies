@@ -27,7 +27,7 @@ def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp,
         needle_pattern = needle_URL_regexp(cat_name)
         #print("Category", cat_name, "parsing beginned!")
         for page_num in range(min_page_num, max_page_num):
-            if page_num % 50 == 0:
+            if page_num % 25 == 0:
               print("Current page: ", page_num)
             hay_url = hay_page_URL(cat_name, page_num)            
             response = requests.get(hay_url)

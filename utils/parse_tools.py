@@ -30,11 +30,11 @@ def gather_site_pages(min_page_num, max_page_num, categories, needle_URL_regexp,
         needle_pattern = needle_URL_regexp(cat_name)
         #print("Category", cat_name, "parsing beginned!")
         for page_num in range(min_page_num, max_page_num):
-            if page_num % 25 == 0:
-              print("Current page: ", page_num)
-            hay_url = hay_page_URL(cat_name, page_num)            
+            hay_url = hay_page_URL(cat_name, page_num)
             response = requests.get(hay_url, headers=fake_headers)
-            if response.status_code != 400:
+            if response.status_code != 404:
+              if page_num % 25 == 0:
+                print("Page", page_num, "has been sucessfully processed")
               gather_page_urls(response.text, needle_pattern, urls)
             else:
               break
@@ -51,4 +51,4 @@ def dump_parsed_data_as_csv (output_filename, categories, urls_by_categories, ui
     for url in urls_by_categories[cat_name]:
       f.writerow([uid, cat_name, url])
       uid += 1
-  return uid    
+  return uid

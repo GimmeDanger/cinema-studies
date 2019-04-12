@@ -19,7 +19,10 @@ for min_page in range(site_format.min_page_num, site_format.max_page_num, delta_
                                        categories=[cat_name], needle_URL_regexp=site_format.needle_URL_regexp,
                                        hay_page_URL=site_format.hay_page_URL)
 
-  uid = parse_tools.dump_parsed_data_as_csv(output_filename=f"{site_format.name}_{cat_name}_urls_records.csv",
-                                            categories=[cat_name], urls_by_categories=urls, uid_begin=uid)
+  if len(urls[cat_name]) != 0:
+    uid = parse_tools.dump_parsed_data_as_csv(output_filename=f"{site_format.name}_{cat_name}_urls_records.csv",
+                                              categories=[cat_name], urls_by_categories=urls, uid_begin=uid)
+  else:
+    break
 
 print("Parsing finished!")

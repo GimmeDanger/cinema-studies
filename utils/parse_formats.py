@@ -47,4 +47,4 @@ class HWReporterParseFormat:
 
 #TODO:
 #Entertainment Weekly ( https://ew.com/ )
-#BoxOffice ( https://www.boxofficepro.com )
+#https://ew.com/search?q=woman%20director&page=5

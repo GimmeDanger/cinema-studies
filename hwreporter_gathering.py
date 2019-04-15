@@ -2,7 +2,7 @@ from utils import parse_formats
 from utils import parse_tools
 
 tags = [
-  "film",
+  #"film",
   "director",
   "cameraman",
   "cinematographer",
@@ -21,7 +21,7 @@ tags = [
   ]
 
 tags_name = [
-  "film",
+  #"film",
   "director",
   "cameraman",
   "cinematographer",

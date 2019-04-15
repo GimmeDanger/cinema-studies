@@ -31,7 +31,20 @@ class FilmcommentParseFormat:
     def needle_URL_regexp(self, cat_name):
         return f"^{self.host_name}/{cat_name}/[-\w]+/"
 
+class HWReporterParseFormat:
+    def __init__(self, searching_tag):
+      self.searching_tag = searching_tag
+    name = "hollywoodreporter"
+    host_name = f"https://www.{name}.com"
+    categories = ["news", "review"]
+    min_page_num = 1
+    max_page_num = 100000 #inf
+    def hay_page_URL(self, cat_name, page_num):
+        return f"{self.host_name}/search/{self.searching_tag}?page={page_num}&filters=type:{cat_name}%20tid:59"
+    def needle_URL_regexp(self, cat_name=""):
+        #something like: "/features/felicity-jones-rogue-one-reshoots-937569"
+        return f"^/[\w]+/[-\w]+[\d]+"
+
 #TODO:
-#The Hollywood Reporter ( https://www.hollywoodreporter.com/ )
 #Entertainment Weekly ( https://ew.com/ )
 #BoxOffice ( https://www.boxofficepro.com )

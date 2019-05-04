@@ -103,6 +103,7 @@ ENV/
 # Gen files
 gen/
 .idea
+.DS_Store
 
 # 3rd Party
 utils/yolo/

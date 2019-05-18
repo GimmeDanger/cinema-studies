@@ -152,7 +152,15 @@ mod_hwr_df, errors = parse_article_urls(hwr_df)
 # In[10]:
 
 
-print(len(errors))
+if len(errors)>0:
+    file = open(f'hwr_errors.csv', "w")
+    f = csv.writer(file)
+    f.writerow(["url", "reason"])
+    for key, value in errors.items():
+      f.writerow([key, value])
+    file.close()
+    
+mod_hwr_df.head()
 
 
 # In[11]:

@@ -18,7 +18,6 @@ import warnings
 import pandas as pd
 from bs4 import BeautifulSoup
 from tqdm import tqdm, tqdm_notebook
-warnings.filterwarnings('ignore')
 
 
 # In[3]:
@@ -98,8 +97,10 @@ def get_article_meta_test():
 def parse_article_urls(df):    
     modified_df = df
     # expand dataframe, add columns for meta
+    warnings.filterwarnings('ignore')
     for meta_name in hwr_meta_names:
         modified_df[meta_name] = None
+    warnings.filterwarnings('always')
         
     cannot_parsed = {} # {url : reason}
     with tqdm(desc="rows", total=len(df)) as pbar_outer:

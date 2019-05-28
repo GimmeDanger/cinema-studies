@@ -59,7 +59,7 @@ def get_html_test():
     print(test_url)
     print(get_html(test_url))
 
-get_html_test()
+#get_html_test()
 
 
 # In[10]:

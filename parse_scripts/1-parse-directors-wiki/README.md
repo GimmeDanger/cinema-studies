@@ -14,3 +14,5 @@ title_regexp = fr"^(\s*{name_regexp}){{2,4}}$"
 ```
 
 Помимо прочего в [финальные списки режииссеров](https://github.com/GimmeDanger/cinema-studies/tree/master/data/director_lists/wiki) были добавлены латинизированные версии их полных имен (Pedro Almodóvar -> Pedro Almodovar), поскольку рассматриваемые англоязычные СМИ зачастую используют именно такую форму в своих текстах.
+
+На Wikipedia не оказалось "чисто мужского" списка аналогичного рассмотренному выше "женскому". Зато был [List of film and television directors](https://en.wikipedia.org/wiki/List_of_film_and_television_directors) -- список, так сказать, "настоящих" режиссеров, в котором были перечисленны и женщины, и мужчины при подавляющем большинстве последних. На его основе был составлен список "чисто мужской" список.

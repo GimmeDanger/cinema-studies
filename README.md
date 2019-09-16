@@ -16,9 +16,9 @@
 
 > ![](.github/1.png)
 
-> ![](.github/1.png)
+> ![](.github/2.png)
 
-> ![](.github/1.png)
+> ![](.github/3.png)
 
 <Выводы>
 

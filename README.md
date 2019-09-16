@@ -14,11 +14,11 @@
 
 Мы посчитали количество упоминаний женщин-,мужчин-режиссеров в статьях популярных американских кино-СМИ (The Hollywood Reporter, Variety, Deadline). Из списка рассматриваемых режиссеров пришлось предварительно исключить несколько мега популярных кинозвезд, формально попавших в список (Angelina Jolie, Natalie Portman и тд), но искажающих реальную картину популярности "настоящих" режиссеров.
 
-> ![](data/graphics/deadline_mentions_year_barchart_relative.png)
+> ![](.github/1.png)
 
-> ![](data/graphics/hwr_mentions_year_barchart_relative.png)
+> ![](.github/1.png)
 
-> ![](data/graphics/variety_mentions_year_barchart_relative.png)
+> ![](.github/1.png)
 
 <Выводы>
 

@@ -1,0 +1,132 @@
+2008 1 McG 4
+2008 10 Dennis Hopper 1
+2008 11 Gus Van Sant 2
+2008 12 Clint Eastwood 3
+2008 2 Doug Liman 2
+2008 3 Chris Menges 1
+2008 4 Mike Nichols 2
+2008 5 Wim Wenders 2
+2008 6 Michael Snow 1
+2008 7 Martin Scorsese 2
+2008 8 Patrick Rea 1
+2008 9 Steven Spielberg 2
+2009 1 Werner Herzog 1
+2009 10 Wes Anderson 1
+2009 11 James Cameron 2
+2009 12 James Cameron 2
+2009 2 Paul Verhoeven 1
+2009 3 Jon Favreau 1
+2009 4 Spike Lee 1
+2009 5 Pete Docter 1
+2009 6 Michael Bay 1
+2009 7 Jean-Pierre Melville 1
+2009 8 Clint Eastwood 1
+2009 9 Ridley Scott 2
+2010 1 Lee Daniels 5
+2010 10 Martin Scorsese 15
+2010 11 Walt Disney 16
+2010 12 David Fincher 21
+2010 2 Jeff Tremaine 1
+2010 3 Quentin Tarantino 1
+2010 4 Jia Zhangke 1
+2010 5 Milos Forman 1
+2010 6 Seth MacFarlane 1
+2010 7 McG 1
+2010 8 Zhang Yimou 1
+2010 9 Darren Aronofsky 4
+2011 1 David Fincher 29
+2011 10 Steven Spielberg 32
+2011 11 Clint Eastwood 39
+2011 12 Steven Spielberg 46
+2011 2 Christopher Nolan 24
+2011 3 Walt Disney 16
+2011 4 McG 11
+2011 5 Lars von Trier 32
+2011 6 Steven Spielberg 30
+2011 7 Jon Favreau 25
+2011 8 Rupert Wyatt 17
+2011 9 Steven Soderbergh 33
+2012 1 Martin Scorsese 35
+2012 10 Steven Spielberg 27
+2012 11 Steven Spielberg 38
+2012 12 Peter Jackson 49
+2012 2 Steven Spielberg 27
+2012 3 Andrew Stanton 16
+2012 4 James Cameron 30
+2012 5 Michael Haneke 26
+2012 6 Woody Allen 24
+2012 7 Christopher Nolan 47
+2012 8 Ridley Scott 32
+2012 9 Paul Thomas Anderson 30
+2013 1 Quentin Tarantino 35
+2013 10 Alfonso Cuaron 32
+2013 11 Walt Disney 28
+2013 12 Martin Scorsese 37
+2013 2 Steven Spielberg 50
+2013 3 Sam Raimi 21
+2013 4 Steven Spielberg 29
+2013 5 Baz Luhrmann 30
+2013 6 Christopher Nolan 30
+2013 7 Gore Verbinski 16
+2013 8 Lee Daniels 37
+2013 9 Ron Howard 30
+2014 1 Martin Scorsese 44
+2014 10 David Fincher 41
+2014 11 Christopher Nolan 59
+2014 12 Christopher Nolan 32
+2014 2 Woody Allen 35
+2014 3 Alfonso Cuaron 25
+2014 4 Bryan Singer 18
+2014 5 David Cronenberg 21
+2014 6 Michael Bay 31
+2014 7 Michael Bay 24
+2014 8 Sylvester Stallone 16
+2014 9 McG 26
+2015 1 Clint Eastwood 57
+2015 10 Ridley Scott 29
+2015 11 Quentin Tarantino 30
+2015 12 Quentin Tarantino 40
+2015 2 Richard Linklater 31
+2015 3 Steven Spielberg 22
+2015 4 McG 13
+2015 5 Todd Haynes 18
+2015 6 Steven Spielberg 34
+2015 7 McG 16
+2015 8 Guy Ritchie 14
+2015 9 Robert Redford 30
+2016 1 Quentin Tarantino 25
+2016 10 McG 23
+2016 11 Martin Scorsese 17
+2016 12 Damien Chazelle 24
+2016 2 Steven Spielberg 17
+2016 3 Zack Snyder 21
+2016 4 Jon Favreau 18
+2016 5 Woody Allen 33
+2016 6 Steven Spielberg 19
+2016 7 Steven Spielberg 15
+2016 8 McG 13
+2016 9 McG 32
+2017 1 Damien Chazelle 27
+2017 10 McG 35
+2017 11 Ridley Scott 21
+2017 12 Steven Spielberg 28
+2017 2 Damien Chazelle 32
+2017 3 McG 19
+2017 4 Walt Disney 9
+2017 5 Martin Scorsese 19
+2017 6 McG 10
+2017 7 Christopher Nolan 24
+2017 8 McG 15
+2017 9 Darren Aronofsky 21
+2018 1 Steven Spielberg 32
+2018 10 Alfonso Cuaron 22
+2018 11 Alfonso Cuaron 23
+2018 12 Alfonso Cuaron 22
+2018 2 McG 18
+2018 3 Steven Spielberg 21
+2018 4 Steven Spielberg 21
+2018 5 Martin Scorsese 16
+2018 6 Walt Disney 11
+2018 7 Steven Spielberg 8
+2018 8 Spike Lee 21
+2018 9 Alfonso Cuaron 18

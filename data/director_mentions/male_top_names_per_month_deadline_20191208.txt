@@ -1,0 +1,103 @@
+2010 10 Tom Hooper 3
+2010 11 Darren Aronofsky 8
+2010 12 Darren Aronofsky 11
+2010 6 David Fincher 2
+2010 7 David Fincher 1
+2010 8 Danny Boyle 1
+2010 9 Alejandro Gonzalez Inarritu 4
+2011 1 David Fincher 21
+2011 10 Walt Disney 18
+2011 11 Brett Ratner 16
+2011 12 Martin Scorsese 16
+2011 2 David Fincher 21
+2011 3 Walt Disney 8
+2011 4 Zack Snyder 6
+2011 5 Walt Disney 9
+2011 6 Steven Spielberg 15
+2011 7 Steven Spielberg 10
+2011 8 McG 10
+2011 9 McG 12
+2012 1 Steven Spielberg 29
+2012 10 Steven Spielberg 18
+2012 11 Steven Spielberg 22
+2012 12 Quentin Tarantino 25
+2012 2 Martin Scorsese 26
+2012 3 Steven Spielberg 9
+2012 4 Ang Lee 21
+2012 5 Lee Daniels 14
+2012 6 Martin Scorsese 13
+2012 7 Christopher Nolan 15
+2012 8 Steven Spielberg 14
+2012 9 Clint Eastwood 22
+2013 1 Steven Spielberg 34
+2013 10 Steven Spielberg 15
+2013 11 Robert Redford 17
+2013 12 Walt Disney 21
+2013 2 Steven Spielberg 40
+2013 3 Steven Spielberg 15
+2013 4 Steven Spielberg 17
+2013 5 McG 22
+2013 6 Walt Disney 16
+2013 7 Steven Spielberg 12
+2013 8 Woody Allen 13
+2013 9 Steven Spielberg 16
+2014 1 Martin Scorsese 42
+2014 10 Ridley Scott 14
+2014 11 Christopher Nolan 18
+2014 12 Richard Linklater 15
+2014 2 Martin Scorsese 19
+2014 3 Wes Anderson 18
+2014 4 Woody Allen 10
+2014 5 Steven Spielberg 13
+2014 6 Clint Eastwood 18
+2014 7 Richard Linklater 16
+2014 8 Luc Besson 14
+2014 9 McG 14
+2015 1 Clint Eastwood 36
+2015 10 Steven Spielberg 21
+2015 11 Ridley Scott 24
+2015 12 Quentin Tarantino 36
+2015 2 Clint Eastwood 25
+2015 3 Steven Spielberg 19
+2015 4 McG 12
+2015 5 Martin Scorsese 12
+2015 6 Steven Spielberg 17
+2015 7 McG 16
+2015 8 Steven Spielberg 14
+2015 9 Steven Spielberg 13
+2016 1 Ridley Scott 33
+2016 10 Ron Howard 15
+2016 11 Mel Gibson 21
+2016 12 Damien Chazelle 25
+2016 2 Sylvester Stallone 19
+2016 3 Steven Spielberg 24
+2016 4 Jon Favreau 18
+2016 5 Woody Allen 21
+2016 6 Steven Spielberg 14
+2016 7 Woody Allen 15
+2016 8 McG 15
+2016 9 Clint Eastwood 29
+2017 1 Damien Chazelle 44
+2017 10 McG 39
+2017 11 Brett Ratner 20
+2017 12 Christopher Nolan 20
+2017 2 Damien Chazelle 38
+2017 3 Steven Spielberg 18
+2017 4 Walt Disney 10
+2017 5 Ridley Scott 29
+2017 6 McG 12
+2017 7 Christopher Nolan 18
+2017 8 McG 19
+2017 9 Martin Scorsese 20
+2018 1 Steven Spielberg 34
+2018 10 Steven Spielberg 16
+2018 11 Alfonso Cuarón 24
+2018 12 Steven Spielberg 19
+2018 2 McG 20
+2018 3 Steven Spielberg 26
+2018 4 Steven Spielberg 17
+2018 5 McG 16
+2018 6 Walt Disney 24
+2018 7 McG 11
+2018 8 McG 23
+2018 9 McG 16
